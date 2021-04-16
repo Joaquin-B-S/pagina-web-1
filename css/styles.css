@@ -7,10 +7,13 @@
     --grisClaro: #DFE9F3;
 }
 
-html{   
+html {   
     font-size: 62.5%;
     box-sizing: border-box; 
+    
+    scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+
 }
                                 /*box-sizing: border-box y box-sizing: inherit para que todos los elementos tenga el tamaño que le demos independiente de los margin, padding, border, etc.*/
 *, *:before, *:after{
